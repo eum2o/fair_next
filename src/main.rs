@@ -2,7 +2,6 @@ use cursive::traits::*;
 use cursive::views::{Dialog, NamedView, OnEventView, SelectView};
 use cursive::Cursive;
 use std::io::Read;
-use std::path;
 use std::path::PathBuf;
 
 mod cursive_actions;
@@ -18,7 +17,7 @@ fn main() -> std::io::Result<()> {
 
     let dialog = if file_content.trim().is_empty() {
         let path = PathBuf::from(FILE_NAME);
-        let display_path = format!("{:?}", path::absolute(path)?).replace(r"\\", r"\");
+        let display_path = format!("{:?}", std::fs::canonicalize(&path)?).replace(r"\\", r"\").replace(r"\\?\", "");
         let err_msg = format!("Please first add one name per line to the following file and restart:\n{}", display_path);
         Dialog::text(err_msg).title("names.txt is empty").button("Ok", Cursive::quit)
     } else {
