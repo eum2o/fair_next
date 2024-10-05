@@ -36,7 +36,7 @@ Alternatively, you can download pre-built executables for various platforms from
 
 ## How to Use
 
-- Run the downloaded/installed executable (`fn` in your terminal, if installed with Cargo).
+- Run the downloaded executable via terminal or by double-clicking it (if downloaded with Cargo, run `fn` in your terminal).
 - If you run it the first time, you'll see a message that you need to add names (or arbitrary list items) to
   the `names.txt` file next to the executable. The path is displayed in the UI.
 - Select a user with the arrow keys and hit `Enter` to confirm. The user will be moved to the bottom.
