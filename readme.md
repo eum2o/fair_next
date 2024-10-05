@@ -1,7 +1,7 @@
-[![Build status](https://img.shields.io/github/actions/workflow/status/eum2o/ftree/rust.yml?branch=master)](https://github.com/eum2o/ftree/actions)
-[![Latest version](https://img.shields.io/crates/v/e2o-ftree.svg)](https://crates.io/crates/e2o-ftree)
-[![GitHub Release](https://img.shields.io/github/v/release/eum2o/ftree?label=download&link=https%3A%2F%2Fgithub.com%2Feum2o%2Fftree%2Freleases)](https://github.com/eum2o/ftree/releases)
-![Crates.io License](https://img.shields.io/crates/l/e2o-ftree?color=%238b55d7)
+[![Build status](https://img.shields.io/github/actions/workflow/status/eum2o/fair_next/build.yml?branch=master)](https://github.com/eum2o/fair_next/actions)
+[![Latest version](https://img.shields.io/crates/v/fair_next.svg)](https://crates.io/crates/fair_next)
+[![GitHub Release](https://img.shields.io/github/v/release/eum2o/fair_next?label=download&link=https%3A%2F%2Fgithub.com%2Feum2o%2Fftree%2Freleases)](https://github.com/eum2o/fair_next/releases)
+![Crates.io License](https://img.shields.io/crates/l/fair_next?color=%238b55d7)
 
 
 # Fair Next
@@ -26,7 +26,7 @@ You can install `fn` using [Cargo](https://doc.rust-lang.org/cargo/):
 cargo install fair_next
 ```
 
-For more information about the crate, visit [https://crates.io/crates/fair_next](https://crates.io/crates/e2o-ftree).
+For more information about the crate, visit [https://crates.io/crates/fair_next](https://crates.io/crates/fair_next).
 
 ### Pre-built Executables
 
