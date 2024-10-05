@@ -36,7 +36,7 @@ pub(crate) fn save_cursive(cursive: &mut Cursive) {
         match save_sel_view(select_view) {
             // TODO give some feedback that saving worked
             Ok(_) => {}
-            Err(e) => {}
+            Err(_) => {}
         }
     } else {
         cursive.add_layer(Dialog::info("Error: Couldn't find the view to save."));

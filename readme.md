@@ -1,3 +1,9 @@
+[![Build status](https://img.shields.io/github/actions/workflow/status/eum2o/ftree/rust.yml?branch=master)](https://github.com/eum2o/ftree/actions)
+[![Latest version](https://img.shields.io/crates/v/e2o-ftree.svg)](https://crates.io/crates/e2o-ftree)
+[![GitHub Release](https://img.shields.io/github/v/release/eum2o/ftree?label=download&link=https%3A%2F%2Fgithub.com%2Feum2o%2Fftree%2Freleases)](https://github.com/eum2o/ftree/releases)
+![Crates.io License](https://img.shields.io/crates/l/e2o-ftree?color=%238b55d7)
+
+
 # Fair Next
 
 A simple command line tool that displays a list. When a list item is selected, it's moved to the bottom. The list is
@@ -14,11 +20,19 @@ You can either download the executable manually or use Cargo to install this too
 
 ### Cargo
 
-TBD
+You can install `fn` using [Cargo](https://doc.rust-lang.org/cargo/):
 
-### Download
+```
+cargo install fair_next
+```
 
-TBD
+For more information about the crate, visit [https://crates.io/crates/fair_next](https://crates.io/crates/e2o-ftree).
+
+### Pre-built Executables
+
+Alternatively, you can download pre-built executables for various platforms from the GitHub releases page:
+
+[https://github.com/eum2o/fair_next/releases](https://github.com/eum2o/fair_next/releases)
 
 ## How to Use
 
