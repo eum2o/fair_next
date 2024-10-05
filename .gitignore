@@ -1,1 +1,10 @@
 /target
+
+# For this tool
+names.txt
+
+# Rust Rover
+*.iml
+*.ipr
+.idea/modules.xml
+
